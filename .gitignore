@@ -1,0 +1,27 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller 打包产物 / 中间文件（可由 build.bat / build_exe.bat 重新生成）
+build/
+dist/
+*.spec
+
+# 体积大、随程序分发的工具与素材（不入库，使用者自行准备/下载）
+ffmpeg.exe
+ffprobe.exe
+*.y4m
+
+# 人脸素材与录像（个人数据，不入库）
+faces/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.3gp
+
+# 账号文件（含明文密码，隐私不入库；运行时由 GUI 自动生成）
+accounts.txt
